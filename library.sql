@@ -10,7 +10,7 @@ CREATE TABLE authors (
     birth_date DATE,
     nationality VARCHAR(50),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT uc_author_name UNIQUE (name, birth_date)  -- Prevent duplicate authors
+    CONSTRAINT uc_author_name UNIQUE (name, birth_date)
 );
 
 -- Publishers Table (1:M with Books)
