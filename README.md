@@ -38,9 +38,12 @@ A RESTful API for managing tasks, users, and categories built with FastAPI and S
 - uvicorn app.main:app --reload
 - The API will be available at http://127.0.0.1:8000. You can access the interactive API documentation at http://127.0.0.1:8000/docs.
 
-# Database Schema (ERD)
+# Database Schema (ERD) for task manager
 
 ![ERD drawio (4)](https://github.com/user-attachments/assets/4eb6795e-d6b0-4ddc-987b-2d6e6219c2e9)
+
+# ERD for libraryDB
+![alt text](<ERD for libraryDB.drawio.png>)
 
 # API Endpoints
 ## Users
