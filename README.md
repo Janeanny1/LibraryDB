@@ -18,7 +18,7 @@ A RESTful API for managing tasks, users, and categories built with FastAPI and S
 # Installation
 * Clone the repository:
 * git clone https://github.com/Janeanny1/LibraryDB.git
-* cd task-manager-api
+* cd LibraryDB
 
 # Create and activate a virtual environment:
 + python -m venv venv
